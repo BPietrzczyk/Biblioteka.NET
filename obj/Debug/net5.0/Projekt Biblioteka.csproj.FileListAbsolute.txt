@@ -1,0 +1,41 @@
+D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\appsettings.Development.json
+D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\appsettings.json
+D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\Projekt Biblioteka.exe
+D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\Projekt Biblioteka.deps.json
+D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\Projekt Biblioteka.runtimeconfig.json
+D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\Projekt Biblioteka.runtimeconfig.dev.json
+D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\Projekt Biblioteka.dll
+D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\ref\Projekt Biblioteka.dll
+D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\Projekt Biblioteka.pdb
+D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\Projekt Biblioteka.Views.dll
+D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\Projekt Biblioteka.Views.pdb
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.csprojAssemblyReference.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.AssemblyInfoInputs.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.AssemblyInfo.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.csproj.CoreCompileInputs.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.MvcApplicationPartsAssemblyInfo.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.RazorAssemblyInfo.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.RazorAssemblyInfo.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\staticwebassets\Projekt Biblioteka.StaticWebAssets.Manifest.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\staticwebassets\Projekt Biblioteka.StaticWebAssets.xml
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\scopedcss\bundle\Projekt Biblioteka.styles.css
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.TagHelpers.input.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.TagHelpers.output.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.RazorCoreGenerate.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.RazorTargetAssemblyInfo.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.RazorTargetAssemblyInfo.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.Views.pdb
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.dll
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\ref\Projekt Biblioteka.dll
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.pdb
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.genruntimeconfig.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.csproj.CopyComplete
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Login.cshtml.g.cs

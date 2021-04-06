@@ -15,6 +15,10 @@ namespace Projekt_Biblioteka.Pages
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
+            if (false)
+            {
+                
+            }
         }
 
         public void OnGet()

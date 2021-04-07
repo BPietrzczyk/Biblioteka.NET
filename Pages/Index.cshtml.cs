@@ -10,20 +10,26 @@ namespace Projekt_Biblioteka.Pages
 {
     public class IndexModel : PageModel
     {
+        private bool isUserLogged;
+
         private readonly ILogger<IndexModel> _logger;
 
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
-            if (false)
-            {
-                
-            }
+            isUserLogged = false;
         }
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
-
+            if (!isUserLogged)
+            {
+                return this.RedirectToPage("/Login");
+            }
+            else
+            {
+                return this.Page();
+            }
         }
     }
 }

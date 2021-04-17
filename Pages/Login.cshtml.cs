@@ -13,9 +13,6 @@ namespace Projekt_Biblioteka.Pages
         {
         }
 
-        public void OnPost()
-        {
-            Response.Redirect("Index");
-        }
+     
     }
 }

@@ -10,7 +10,7 @@ namespace Projekt_Biblioteka.Pages
 {
     public class IndexModel : PageModel
     {
-        private bool isUserLogged;
+        public bool isUserLogged;
 
         private readonly ILogger<IndexModel> _logger;
 

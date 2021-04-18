@@ -13,6 +13,9 @@ namespace Projekt_Biblioteka.Pages
         {
         }
 
-     
+        public void OnPost()
+        {
+            //do something
+        }
     }
 }

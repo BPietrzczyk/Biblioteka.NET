@@ -22,6 +22,8 @@ namespace Projekt_Biblioteka.Pages
         public IEnumerable<User> users { get; set; }
         [BindProperty]
         public User user { get; set; }
+        [BindProperty]
+        public String password2 { get; set; }
 
         public async Task OnGet()
         {
@@ -37,8 +39,9 @@ namespace Projekt_Biblioteka.Pages
                 bool changeLogin = false;
                 bool changeEmail = false;
 
-                /*
-                foreach(User u in users)
+                users = await _db.User.ToListAsync();
+
+                foreach (User u in users)
                 {
                     if (u.Login == user.Login)
                     {
@@ -54,13 +57,20 @@ namespace Projekt_Biblioteka.Pages
 
                 if (changeEmail || changeLogin)
                     userExistInDatabase = true;
-                */
+                
 
                 if (!userExistInDatabase)
                 {
-                    await _db.User.AddAsync(user);
-                    await _db.SaveChangesAsync();
-                    return RedirectToPage("Index");
+                    if (password2.Equals(user.Password))
+                    {
+                        await _db.User.AddAsync(user);
+                        await _db.SaveChangesAsync();
+                        return RedirectToPage("Index");
+                    } else
+                    {
+                        return Page();
+                    }
+                    
                 }
                 else
                     return Page();

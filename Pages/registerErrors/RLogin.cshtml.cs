@@ -10,14 +10,14 @@ using Microsoft.EntityFrameworkCore;
 using Projekt_Biblioteka.Data;
 using Projekt_Biblioteka.Models;
 
-namespace Projekt_Biblioteka.Pages
+namespace Projekt_Biblioteka.Pages.registerErrors
 {
-    public class Register : PageModel
+    public class RLogin : PageModel
     {
 
         private readonly ApplicationDbContext _db;
 
-        public Register(ApplicationDbContext db)
+        public RLogin(ApplicationDbContext db)
         {
             _db = db;
             userExistInDatabase = false;
@@ -60,7 +60,6 @@ namespace Projekt_Biblioteka.Pages
                     {
                         //throw new ArgumentException("Uzytkownik z tym loginem juz istnieje");
                         ChangeLogin = true;
-                        return RedirectToPage("registerErrors/RLogin");
                         break;
                     }
                     if (u.Email == user.Email)

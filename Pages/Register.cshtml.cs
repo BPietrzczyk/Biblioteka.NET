@@ -12,9 +12,9 @@ namespace Projekt_Biblioteka.Pages
 {
     public class Register : PageModel
     {
-        private readonly ApplicationDbContext _db;
+        private readonly Data.ApplicationDbContext _db;
 
-        public Register(ApplicationDbContext db)
+        public Register(Data.ApplicationDbContext db)
         {
             _db = db;
         }

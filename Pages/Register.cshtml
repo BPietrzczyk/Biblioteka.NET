@@ -4,11 +4,55 @@
     ViewData["Title"] = "Register Page";
 }
 
-<head>
-    <meta charset="utf-8" />
-    <title>Biblioteka - Logowanie</title>
-    <link rel="stylesheet" href="~/css/login.css" />
-</head>
+<br />
+<h2 class="text-info">Nowy użytkownik</h2> 
+<br />
+
+<div class="border container" style="padding:30px">
+    <form method="post">
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="user.Login"></label>
+            </div>
+            <div class="col-9">
+                <input asp-for="user.Login" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="user.Email"></label>
+            </div>
+            <div class="col-9">
+                <input asp-for="user.Email" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="user.Password"></label>
+            </div>
+            <div class="col-9">
+                <input asp-for="user.Password" class="form-control" type="password" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label>Repeat password</label>
+            </div>
+            <div class="col-9">
+                <input asp-for="password2" class="form-control" type="password"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3 offset-4">
+                <input type="submit" value="Rejestruj" class="btn btn-primary form-control" />
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<!--
+
 <body>
 
     <header>
@@ -16,7 +60,7 @@
     </header>
     <main>
         <div id="container">
-            <form action="Register" method="post">
+            <form method="post">
                 <input asp-for="user.Login" type="text" name="login" placeholder="Login" onfocus="this.placeholder=''" onblur="this.placeholder='Login'">
                 <input asp-for="user.Email" type="text" name="email" placeholder="Email" onfocus="this.placeholder=''" onblur="this.placeholder='Email'">
                 <input asp-for="user.Password" type="password" name="password" placeholder="Hasło" onfocus="this.placeholder=''" onblur="this.placeholder='Hasło'">
@@ -27,3 +71,4 @@
         </div>
     </main>
 </body>
+    -->

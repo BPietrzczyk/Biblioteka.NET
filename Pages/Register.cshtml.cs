@@ -18,7 +18,7 @@ namespace Projekt_Biblioteka.Pages
 
         private readonly ApplicationDbContext _db;
 
-        public Register(ApplicationDbContext db)
+        public Register(Data.ApplicationDbContext db)
         {
             _db = db;
             userExistInDatabase = false;

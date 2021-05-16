@@ -1,0 +1,65 @@
+﻿@page
+@model Projekt_Biblioteka.Pages.BookList.IndexModel
+@{
+}
+
+<body>
+
+    <br />
+
+    <div class="container row p-0 m-0">
+        <div class="col-9">
+            <h2 class="text-info"></h2>
+        </div>
+        <div class="col-2">
+            <a asp-page="Create" class="btn btn-info form-control text-white">Dodaj książkę</a>
+        </div>
+
+        <div class="col-12 border p-3 mt-3">
+            <form method="post">
+                @if (Model.Books.Count() > 0)
+                {
+                    <table class="table table-striped border">
+                        <tr class="table-secondary">
+                            <th>
+                                <label>Tytuł</label>
+                            </th>
+                            <th>
+                                <label>Autor</label>
+                            </th>
+                            <th>
+                                <label>ISBN</label>
+                            </th>
+                            <th>
+
+                            </th>
+                        </tr>
+                        @foreach (var item in Model.Books)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(m => item.Name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.Author)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.ISBN)
+                                </td>
+                                <td>
+                                    <button class="btn btn-danger btn-sm">Usuń</button>
+                                    <a class="btn btn-success btn-sm text-white">Edytuj</a>
+                                </td>
+                            </tr>
+                        }
+                    </table>
+                }
+                else
+                {
+                    <p>Brak książek w bibliotece</p>
+                }
+            </form>
+        </div>
+    </div>
+
+</body>

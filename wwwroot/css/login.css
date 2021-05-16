@@ -1,10 +1,4 @@
-﻿body {
-    background-color: #E6F3EE;
-}
-
-/*Potem usunąć niepotrzebne i zmodyfikować resztę*/
-
-.loginHeader
+﻿.loginHeader
 {
     font-size: 56px;
     font-style: italic;
@@ -25,6 +19,11 @@
     margin-right: auto;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(1,245,255,0);
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(1,245,255,0);
+}
+
+.text-info
+{
+    text-align: center;
 }
 
 input[type=text], input[type=password] {
@@ -55,9 +54,28 @@ input[type=submit] {
     margin-top: 25px;
 }
 
+.loginButton {
+    min-width: 250px;
+    background-color: #A3BBAF;
+    font-size: 20px;
+    color: white;
+    padding: 15px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
     input[type=submit]:hover {
         background-color: #676B69;
     }
+
+.loginButton:hover {
+    background-color: #676B69;
+}
 
 input[type=text]:focus,
 input[type=password]:focus {
@@ -69,22 +87,9 @@ input[type=submit]:focus {
     box-shadow: 0px 0px 5px 2px rgba(230, 243, 238, 1);
 }
 
-#zapomniane {
+.loginButton:focus {
+    box-shadow: 0px 0px 5px 2px rgba(230, 243, 238, 1);
 }
-
-#przypomnienie {
-    width: 250px;
-    font-size: 15px;
-    text-align: center;
-    text-decoration: none;
-    color: #515250;
-    font-style: italic;
-}
-
-    #przypomnienie:hover {
-        text-decoration: underline;
-        color: #2e2e2e;
-    }
 
 #brakKonta {
     color: #979797;

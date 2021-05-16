@@ -1,5 +1,16 @@
 ﻿@page
+@{
+    var userString = "testowy teskt";
+    byte[] value;
 
+    HttpContext.Session.TryGetValue("User", out value);
+    try
+    {
+        userString = System.Text.Encoding.UTF8.GetString(value);
+    }
+    catch (Exception e) { }
+
+}
 
 <html lang="pl">
 <head>
@@ -10,6 +21,8 @@
 <body>
     <header>
         <div class="loginHeader">Zaloguj się do Biblioteki</div>
+        <label>@(userString)</label>
+
     </header>
     <main>
         <div id="container">
@@ -22,4 +35,5 @@
         </div>
     </main>
 </body>
+
 </html>

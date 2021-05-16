@@ -1,6 +1,26 @@
 ﻿@page
 @model Projekt_Biblioteka.Pages.Profile.IndexModel
 @{
+
+    var userId = "";
+    var userLogin = "";
+    var userEmail = "";
+    byte[] valueID;
+    byte[] valueLogin;
+    byte[] valueEmail;
+
+    HttpContext.Session.TryGetValue("UserId", out valueID);
+    HttpContext.Session.TryGetValue("UserLogin", out valueLogin);
+    HttpContext.Session.TryGetValue("UserEmail", out valueEmail);
+    try
+    {
+        userId = System.Text.Encoding.UTF8.GetString(valueID);
+        userLogin = System.Text.Encoding.UTF8.GetString(valueLogin);
+        userEmail = System.Text.Encoding.UTF8.GetString(valueEmail);
+    }
+    catch (Exception e) { }
+
+
 }
 
 <html lang="pl">
@@ -17,11 +37,13 @@
             <div class="card-body">
                 <div class="d-flex flex-column align-items-center text-center">
                     <div class="mt-3">
-                        <h4>John Doe</h4>
-                        <p class="text-secondary mb-1">Full Stack Developer</p>
-                        <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
-                        <button class="btn btn-primary">Follow</button>
-                        <button class="btn btn-outline-primary">Message</button>
+                        <h4>@(userLogin)</h4>
+                        <p class="text-secondary mb-1">Email</p>
+                        <p class="text-muted font-size-sm">@(userEmail)</p>
+                        <form method="post">
+                            <button name="profile" value="Edit" class="btn btn-primary">Edytuj</button>
+                            <button name="profile" value="Logout" class="btn btn-outline-primary">Wyloguj</button>
+                        </form>
                     </div>
                 </div>
             </div>

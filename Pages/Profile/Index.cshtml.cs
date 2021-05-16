@@ -25,6 +25,24 @@ namespace Projekt_Biblioteka.Pages.Profile
             return Page();
         }
 
+        public IActionResult OnPost(string profile)
+        {
+            if(profile == "Logout")
+            {
+                HttpContext.Session.Remove("UserId");
+                HttpContext.Session.Remove("UserLogin");
+                HttpContext.Session.Remove("UserEmail");
+
+                return new RedirectToPageResult("../Login");
+            } else if (profile == "Edit")
+            {
+                // Todo zamieniæ na Edit
+                return new RedirectToPageResult("../Login");
+            }
+
+            return Page();
+        }
+
 
         private void setUp() {
             var userId = "";

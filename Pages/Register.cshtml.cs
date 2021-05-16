@@ -81,8 +81,10 @@ namespace Projekt_Biblioteka.Pages
                     {
                         await _db.User.AddAsync(user);
                         await _db.SaveChangesAsync();
-                        
-                        HttpContext.Session.Set("User", Encoding.UTF8.GetBytes(user.Login));
+
+                        HttpContext.Session.Set("UserId", Encoding.UTF8.GetBytes(user.Id.ToString()));
+                        HttpContext.Session.Set("UserLogin", Encoding.UTF8.GetBytes(user.Login));
+                        HttpContext.Session.Set("UserEmail", Encoding.UTF8.GetBytes(user.Email));
 
                         return RedirectToPage("Index");
                     } else

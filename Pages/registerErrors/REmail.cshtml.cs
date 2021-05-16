@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
@@ -79,6 +80,11 @@ namespace Projekt_Biblioteka.Pages.registerErrors
                     {
                         await _db.User.AddAsync(user);
                         await _db.SaveChangesAsync();
+
+                        HttpContext.Session.Set("UserId", Encoding.UTF8.GetBytes(user.Id.ToString()));
+                        HttpContext.Session.Set("UserLogin", Encoding.UTF8.GetBytes(user.Login));
+                        HttpContext.Session.Set("UserEmail", Encoding.UTF8.GetBytes(user.Email));
+
                         return RedirectToPage("Index");
                     } else
                     {

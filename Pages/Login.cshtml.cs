@@ -6,106 +6,98 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using Projekt_Biblioteka.Data;
 using Projekt_Biblioteka.Models;
 
 namespace Projekt_Biblioteka.Pages
 {
     public class LoginModel : PageModel
     {
+        [BindProperty]
+        public User user { get; set; }
+        public IEnumerable<User> users { get; set; }
 
-        private readonly Data.ApplicationDbContext _db;
+        [BindProperty]
+        public String password { get; set; }
+        [BindProperty]
+        public String login { get; set; }
 
-        public LoginModel(Data.ApplicationDbContext db)
+        private bool isUser;
+
+        private readonly ApplicationDbContext _db;
+        public LoginModel(ApplicationDbContext db)
         {
             _db = db;
         }
 
-        //public User user { get; set; }
-
         public IActionResult OnGet()
         {
-            try
-            {
-                // Verification.  
-                if (this.User.Identity.IsAuthenticated)
-                {
-                    // Home Page.  
-                    return this.RedirectToPage("/Home/Index");
-                }
-            }
-            catch (Exception ex)
-            {
-                // Info  
-                Console.Write(ex);
-            }
-
-            // Info.  
-            return this.Page();
+            setUp();
+            if (isUser)
+                return new RedirectToPageResult("Profile/Index");
+            return Page();
         }
 
-        #region On Post Login method.  
 
-        /// <summary>  
-        /// POST: /Index/LogIn  
-        /// </summary>  
-        /// <returns>Returns - Appropriate page </returns>  
-        public async Task<IActionResult> OnPostLogIn()
+        public async Task<IActionResult> OnPost(string login, string password)
         {
-            try
+            users = await _db.User.ToListAsync();
+
+            foreach (User u in users)
             {
-                // Verification.  
-                if (ModelState.IsValid)
-                {
-                    // Initialization.  
-                    /*var loginInfo = await this.databaseManager.LoginByUsernamePasswordMethodAsync(this.LoginModel.Username, this.LoginModel.Password);
-
-                    // Verification.  
-                    if (loginInfo != null && loginInfo.Count() > 0)
+                if(u.Login == login)
+                    if(u.Password == password)
                     {
-                        // Initialization.  
-                        var logindetails = loginInfo.First();
-
-                        // Login In.  
-                        await this.SignInUser(logindetails.Username, false);
-
-                        // Info.  
-                        return this.RedirectToPage("/Home/Index");
+                        user = u;
+                        HttpContext.Session.Set("UserId", Encoding.UTF8.GetBytes(user.Id.ToString()));
+                        HttpContext.Session.Set("UserLogin", Encoding.UTF8.GetBytes(user.Login));
+                        HttpContext.Session.Set("UserEmail", Encoding.UTF8.GetBytes(user.Email));
+                        return new RedirectToPageResult("Profile/Index");
                     }
-                    else
-                    {
-                        // Setting.  
-                        ModelState.AddModelError(string.Empty, "Invalid username or password.");
-                    }*/
-
-                    return this.RedirectToPage("/Login");
-                }
-                else
-                {
-                    return this.RedirectToPage("/Register");
-                }
-            }
-            catch (Exception ex)
-            {
-                // Info  
-                Console.Write(ex);
             }
 
-            // Info.  
-            return this.Page();
+            Console.WriteLine("test");
+
+
+            return new RedirectToPageResult("Login");
         }
-        [BindProperty]
-        public User user { get; set; }
 
-        [BindProperty(SupportsGet = true, Name = "ai_user")]
-        public String userString { get; set; }
 
-/*        public void OnGet()
+
+        private void setUp()
         {
+            var userId = "";
+            var userLogin = "";
+            var userEmail = "";
+            byte[] valueID;
+            byte[] valueLogin;
+            byte[] valueEmail;
 
-            //HttpContext.Session.Set("User", Encoding.UTF8.GetBytes(user.ToString()));
-            //this.SignIn();
-        }*/
+            HttpContext.Session.TryGetValue("UserId", out valueID);
+            HttpContext.Session.TryGetValue("UserLogin", out valueLogin);
+            HttpContext.Session.TryGetValue("UserEmail", out valueEmail);
+            try
+            {
+                userId = System.Text.Encoding.UTF8.GetString(valueID);
+                userLogin = System.Text.Encoding.UTF8.GetString(valueLogin);
+                userEmail = System.Text.Encoding.UTF8.GetString(valueEmail);
+            }
+            catch (Exception e) { }
 
-        #endregion
+            try
+            {
+                user = new User();
+                user.Id = Int32.Parse(userId);
+                user.Login = userLogin;
+                user.Email = userEmail;
+                isUser = true;
+            }
+            catch (Exception e)
+            {
+                isUser = false;
+            }
+        }
+
     }
 }

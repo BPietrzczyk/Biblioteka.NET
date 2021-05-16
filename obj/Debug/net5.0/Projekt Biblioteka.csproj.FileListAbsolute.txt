@@ -151,3 +151,5 @@ D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Register.cshtml.g.
 C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\registerErrors\RLogin.cshtml.g.cs
 C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\registerErrors\REmail.cshtml.g.cs
 >>>>>>> 251a9927f50b1c09605ea1e3de17ca610e81e5c6
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\registerErrors\REmail.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\registerErrors\RLogin.cshtml.g.cs

@@ -15,12 +15,8 @@ namespace Projekt_Biblioteka.Pages
 {
     public class Register : PageModel
     {
-<<<<<<< HEAD
-        private readonly Data.ApplicationDbContext _db;
-=======
 
         private readonly ApplicationDbContext _db;
->>>>>>> 251a9927f50b1c09605ea1e3de17ca610e81e5c6
 
         public Register(Data.ApplicationDbContext db)
         {

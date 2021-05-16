@@ -12,7 +12,6 @@ namespace Projekt_Biblioteka.Pages
 {
     public class LoginModel : PageModel
     {
-<<<<<<< HEAD
 
         private readonly Data.ApplicationDbContext _db;
 
@@ -21,7 +20,7 @@ namespace Projekt_Biblioteka.Pages
             _db = db;
         }
 
-        public User user { get; set; }
+        //public User user { get; set; }
 
         public IActionResult OnGet()
         {
@@ -77,7 +76,7 @@ namespace Projekt_Biblioteka.Pages
                         // Setting.  
                         ModelState.AddModelError(string.Empty, "Invalid username or password.");
                     }*/
-                   
+
                     return this.RedirectToPage("/Login");
                 }
                 else
@@ -93,20 +92,19 @@ namespace Projekt_Biblioteka.Pages
 
             // Info.  
             return this.Page();
-=======
+        }
         [BindProperty]
         public User user { get; set; }
 
         [BindProperty(SupportsGet = true, Name = "ai_user")]
         public String userString { get; set; }
 
-        public void OnGet()
+/*        public void OnGet()
         {
 
             //HttpContext.Session.Set("User", Encoding.UTF8.GetBytes(user.ToString()));
             //this.SignIn();
->>>>>>> 251a9927f50b1c09605ea1e3de17ca610e81e5c6
-        }
+        }*/
 
         #endregion
     }

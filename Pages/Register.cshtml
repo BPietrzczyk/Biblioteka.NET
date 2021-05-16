@@ -4,52 +4,47 @@
     ViewData["Title"] = "Register Page";
 }
 
-<br />
-<h2 class="text-info">Nowy użytkownik</h2> 
-<br />
+<head>
+    <link rel="stylesheet" href="~/css/login.css" />
+</head>
 
-<div class="border container" style="padding:30px">
-    <form method="post">
-        <div class="form-group row">
-            <div class="col-3">
-                <label asp-for="user.Login"></label>
-            </div>
-            <div class="col-9">
-                <input asp-for="user.Login" class="form-control" />
-            </div>
-        </div>
-        <div class="form-group row">
-            <div class="col-3">
-                <label asp-for="user.Email"></label>
-            </div>
-            <div class="col-9">
-                <input asp-for="user.Email" class="form-control" />
-            </div>
-        </div>
-        <div class="form-group row">
-            <div class="col-3">
-                <label asp-for="user.Password"></label>
-            </div>
-            <div class="col-9">
-                <input asp-for="user.Password" class="form-control" type="password" />
-            </div>
-        </div>
-        <div class="form-group row">
-            <div class="col-3">
-                <label>Repeat password</label>
-            </div>
-            <div class="col-9">
-                <input asp-for="password2" class="form-control" type="password"/>
-            </div>
-        </div>
-        <div class="form-group row">
-            <div class="col-3 offset-4">
-                <input type="submit" value="Rejestruj" class="btn btn-primary form-control" />
-            </div>
-        </div>
-    </form>
-</div>
+<body>
 
+    <br />
+    <h2 class="text-info">Nowy użytkownik</h2>
+    <br />
+
+    <div id="container">
+        <form method="post">
+            <div class="form-group row">
+                <div class="col-9">
+                    <input type="text" asp-for="user.Login" class="form-control" placeholder="Login" onfocus="this.placeholder=''" onblur="this.placeholder='Login'"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-9">
+                    <input type="text" asp-for="user.Email" class="form-control" placeholder="E-mail" onfocus="this.placeholder=''" onblur="this.placeholder='E-mail'"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-9">
+                    <input type="password" asp-for="user.Password" class="form-control" type="password" placeholder="Password" onfocus="this.placeholder=''" onblur="this.placeholder='Password'"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-9">
+                    <input type="password" asp-for="password2" class="form-control" type="password" placeholder="Repeat password" onfocus="this.placeholder=''" onblur="this.placeholder='Repeat password'"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-9">
+                    <input type="submit" value="Rejestruj" class="loginButton" />
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
 
 <!--
 

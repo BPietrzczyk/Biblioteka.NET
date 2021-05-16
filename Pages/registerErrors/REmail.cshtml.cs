@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
@@ -11,18 +10,14 @@ using Microsoft.EntityFrameworkCore;
 using Projekt_Biblioteka.Data;
 using Projekt_Biblioteka.Models;
 
-namespace Projekt_Biblioteka.Pages
+namespace Projekt_Biblioteka.Pages.registerErrors
 {
-    public class Register : PageModel
+    public class REmail : PageModel
     {
-<<<<<<< HEAD
-        private readonly Data.ApplicationDbContext _db;
-=======
 
         private readonly ApplicationDbContext _db;
->>>>>>> 251a9927f50b1c09605ea1e3de17ca610e81e5c6
 
-        public Register(Data.ApplicationDbContext db)
+        public REmail(ApplicationDbContext db)
         {
             _db = db;
             userExistInDatabase = false;
@@ -65,7 +60,6 @@ namespace Projekt_Biblioteka.Pages
                     {
                         //throw new ArgumentException("Uzytkownik z tym loginem juz istnieje");
                         ChangeLogin = true;
-                        return RedirectToPage("registerErrors/RLogin");
                         break;
                     }
                     if (u.Email == user.Email)
@@ -85,9 +79,6 @@ namespace Projekt_Biblioteka.Pages
                     {
                         await _db.User.AddAsync(user);
                         await _db.SaveChangesAsync();
-                        
-                        HttpContext.Session.Set("User", Encoding.UTF8.GetBytes(user.Login));
-
                         return RedirectToPage("Index");
                     } else
                     {

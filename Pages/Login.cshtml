@@ -1,9 +1,10 @@
 ﻿@page
+@model Projekt_Biblioteka.Pages.LoginModel
 @{
     var userString = "testowy teskt";
     byte[] value;
 
-    HttpContext.Session.TryGetValue("User", out value);
+    HttpContext.Session.TryGetValue("UserLogin", out value);
     try
     {
         userString = System.Text.Encoding.UTF8.GetString(value);
@@ -26,7 +27,7 @@
     </header>
     <main>
         <div id="container">
-            <form action="Login" method="post">
+            <form method="post">
                 <input type="text" name="login" placeholder="Login" onfocus="this.placeholder=''" onblur="this.placeholder='Login'">
                 <input type="password" name="password" placeholder="Hasło" onfocus="this.placeholder=''" onblur="this.placeholder='Hasło'">
                 <input type="submit" value="Zaloguj się">

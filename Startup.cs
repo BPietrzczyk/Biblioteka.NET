@@ -29,7 +29,7 @@ namespace Projekt_Biblioteka
 
             services.AddSession(options =>
             {
-                options.IdleTimeout = TimeSpan.FromSeconds(10);
+                options.IdleTimeout = TimeSpan.FromMinutes(90);
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });

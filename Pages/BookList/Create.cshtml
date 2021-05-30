@@ -12,6 +12,7 @@
 
     <div class="border container" style="padding: 30px;">
         <form method="post">
+            <input asp-for="Book.IsBorrowed" type="hidden" value="No" />
             <div class="text-danger" asp-validation-summary="ModelOnly"></div>
             <div class="form-group row">
                 <div class="col-3">
@@ -37,6 +38,15 @@
                 </div>
                 <div class="col-6">
                     <input asp-for="Book.ISBN" class="form-control" />
+                </div>
+                <span asp-validation-for="Book.Author" class="text-danger"></span>
+            </div>
+            <div class="form-group row">
+                <div class="col-3">
+                    <label>Numer wewnętrzny</label>
+                </div>
+                <div class="col-6">
+                    <input asp-for="Book.LibraryNumber" class="form-control" />
                 </div>
                 <span asp-validation-for="Book.Author" class="text-danger"></span>
             </div>

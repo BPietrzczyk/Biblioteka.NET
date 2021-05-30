@@ -24,7 +24,8 @@ namespace Projekt_Biblioteka.Pages.BookList
 
         public async Task OnGetAsync()
         {
-            Books = await _db.Book.ToListAsync();
+
+                Books = await _db.Book.ToListAsync();
         }
 
         public async Task<IActionResult> OnPostDelete(int id)

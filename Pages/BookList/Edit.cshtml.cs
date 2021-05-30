@@ -34,6 +34,7 @@ namespace Projekt_Biblioteka.Pages.BookList
                 BookFromDb.Name = Book.Name;
                 BookFromDb.Author = Book.Author;
                 BookFromDb.ISBN = Book.ISBN;
+                BookFromDb.LibraryNumber = Book.LibraryNumber;
 
                 await _db.SaveChangesAsync();
 

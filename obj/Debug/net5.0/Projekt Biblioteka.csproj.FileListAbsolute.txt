@@ -79,3 +79,4 @@ D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\BookList\Create.cs
 D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Profile\Index.cshtml.g.cs
 D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Profile\ResetPassword.cshtml.g.cs
 D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\BookList\Edit.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\UserBookList\Index.cshtml.g.cs

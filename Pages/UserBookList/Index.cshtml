@@ -1,0 +1,63 @@
+﻿@page
+@model Projekt_Biblioteka.Pages.UserBookList.IndexModel
+@{
+}
+
+<br />
+
+<div class="container row p-0 m-0">
+    <div class="col-9">
+        <h2 class="text-info"></h2>
+    </div>
+
+    <div class="col-12 border p-3 mt-3">
+        <form method="post">
+            @if (Model.BooksNotBorrowed.Count()>0)
+            {
+                <table class="table table-striped border">
+                    <tr class="table-secondary">
+                        <th>
+                            <label>Tytuł</label>
+                        </th>
+                        <th>
+                            <label>Autor</label>
+                        </th>
+                        <th>
+                            <label>ISBN</label>
+                        </th>
+                        <th>
+                            <label>Numer wewnętrzny</label>
+                        </th>
+                        <th>
+
+                        </th>
+                    </tr>
+                    @foreach (var item in Model.BooksNotBorrowed)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(m => item.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m => item.Author)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m => item.ISBN)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m => item.LibraryNumber)
+                            </td>
+                            <td>
+                                <button asp-page-handler="Borrow" asp-route-id="@item.Id" class="btn btn-success btn-sm text-white">Wypożycz</button>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            }
+            else
+            {
+                <p>Brak książek w bibliotece</p>
+            }
+        </form>
+    </div>
+</div>

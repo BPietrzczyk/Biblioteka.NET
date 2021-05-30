@@ -1,6 +1,23 @@
 ﻿@page
 @model Projekt_Biblioteka.Pages.BookList.IndexModel
 @{
+    byte[] value;
+    if(HttpContext.Session.TryGetValue("UserLogin", out value))
+    {
+        string login = System.Text.Encoding.UTF8.GetString(value);
+        if (login.Equals("admin"))
+        {
+        }
+        else
+        {
+            Response.Redirect("UserBookList/Index");
+        }
+    }
+    else
+    {
+        Response.Redirect("Login");
+    }
+
 }
 
 <body>
@@ -31,26 +48,32 @@
                                 <label>ISBN</label>
                             </th>
                             <th>
+                                <label>Numer wewnętrzny</label>
+                            </th>
+                            <th>
 
                             </th>
                         </tr>
                         @foreach (var item in Model.Books)
                         {
-                            <tr>
-                                <td>
-                                    @Html.DisplayFor(m => item.Name)
-                                </td>
-                                <td>
-                                    @Html.DisplayFor(m => item.Author)
-                                </td>
-                                <td>
-                                    @Html.DisplayFor(m => item.ISBN)
-                                </td>
-                                <td>
-                                    <button asp-page-handler="Delete" asp-route-id="@item.Id" onclick="return confirm('Czy na pewno chcesz usunąć książkę?')" class="btn btn-danger btn-sm">Usuń</button>
-                                    <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-success btn-sm text-white">Edytuj</a>
-                                </td>
-                            </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(m => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(m => item.Author)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(m => item.ISBN)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(m => item.LibraryNumber)
+                        </td>
+                        <td>
+                            <button asp-page-handler="Delete" asp-route-id="@item.Id" onclick="return confirm('Czy na pewno chcesz usunąć książkę?')" class="btn btn-danger btn-sm">Usuń</button>
+                            <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-success btn-sm text-white">Edytuj</a>
+                        </td>
+                    </tr>
                         }
                     </table>
                 }

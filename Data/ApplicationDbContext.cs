@@ -19,12 +19,14 @@ namespace Projekt_Biblioteka.Data
 
         public DbSet<Book> Book { get; set; }
         public DbSet<User> User { get; set; }
+        public DbSet<BorrowedList> BorrowedLists { get; set; }
 
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Book>().ToTable("Book");
             modelBuilder.Entity<User>().ToTable("User");
+            modelBuilder.Entity<BorrowedList>().ToTable("Borrowed");
         }
 
 

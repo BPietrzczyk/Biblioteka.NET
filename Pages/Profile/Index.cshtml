@@ -29,8 +29,6 @@
     <title>Biblioteka - Profil</title>
     <link rel="stylesheet" href="~/css/login.css" />
 </head>
-
-
 <div class="row gutters-sm">
     <div class="col-md-4 mb-3">
         <div class="card">
@@ -83,6 +81,83 @@
     <!-- tutaj mogą być wypożyczone książki -->
 
     <div class="col-md-8">
+
+
+        
+            @foreach (Models.Book book in Model.borriwedBooks)
+            {
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h6 class="mb-0">Tytuł</h6>
+                            </div>
+                            <div class="col-sm-9 text-secondary">
+                                @book.Name
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h6 class="mb-0">Autor</h6>
+                            </div>
+                            <div class="col-sm-9 text-secondary">
+                                @book.Author
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <form method="post">
+                                <div class="col-sm-12">
+                                    <button name="returnBookId" value="@book.Id" class="btn btn-outline-danger">Oddaj</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        
+
+
+
+        <!--
+
+        <div class="card mb-3">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h6 class="mb-0">Tytuł</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                        Kenneth Valdez
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h6 class="mb-0">Autor</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                        fip@jukmuh.al
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <form method="post">
+                        <button name="returnBook" value="bookId" class="btn btn-outline-danger">Oddaj</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
         <div class="card mb-3">
             <div class="card-body">
                 <div class="row">
@@ -131,5 +206,7 @@
                 </div>
             </div>
         </div>
+
+        -->
 
     </div>

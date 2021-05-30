@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Studia\\NET\\Projekt Biblioteka\\Projekt Biblioteka.csproj": {}
+    "C:\\Users\\paswi\\Source\\Repos\\Biblioteka.NET\\Projekt Biblioteka.csproj": {}
   },
   "projects": {
-    "D:\\Studia\\NET\\Projekt Biblioteka\\Projekt Biblioteka.csproj": {
+    "C:\\Users\\paswi\\Source\\Repos\\Biblioteka.NET\\Projekt Biblioteka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Studia\\NET\\Projekt Biblioteka\\Projekt Biblioteka.csproj",
+        "projectUniqueName": "C:\\Users\\paswi\\Source\\Repos\\Biblioteka.NET\\Projekt Biblioteka.csproj",
         "projectName": "Projekt Biblioteka",
-        "projectPath": "D:\\Studia\\NET\\Projekt Biblioteka\\Projekt Biblioteka.csproj",
-        "packagesPath": "C:\\Users\\bpiet\\.nuget\\packages\\",
-        "outputPath": "D:\\Studia\\NET\\Projekt Biblioteka\\obj\\",
+        "projectPath": "C:\\Users\\paswi\\Source\\Repos\\Biblioteka.NET\\Projekt Biblioteka.csproj",
+        "packagesPath": "C:\\Users\\paswi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paswi\\Source\\Repos\\Biblioteka.NET\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\programowanie\\visualStudio\\shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\bpiet\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\paswi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

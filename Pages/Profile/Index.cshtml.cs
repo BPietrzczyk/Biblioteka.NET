@@ -44,8 +44,7 @@ namespace Projekt_Biblioteka.Pages.Profile
                 return new RedirectToPageResult("../Login");
             } else if (profile == "Edit")
             {
-                // Todo zamieniæ na Edit
-                return new RedirectToPageResult("../Login");
+                return new RedirectToPageResult("./Edit");
             }
 
 

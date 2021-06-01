@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7WsPwISO9SlyB6zdsSsmwK01VoWF2+vCfjpdvB4l06zCKzZyft3zFw7p50H3EUCJ+h6GYDdcloGXrCaWJ2zXjg==",
+  "dgSpecHash": "xhaSyCRBwt3iiRF7tBwnPZP+7jNBOfYdAT++TddwdfZe8jhl3dMob5zYInbaz9Sgeho8MRrvrTIjG89dGLjhDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\paswi\\Source\\Repos\\Biblioteka.NET\\Projekt Biblioteka.csproj",
+  "projectFilePath": "C:\\Users\\paswi\\source\\repos\\Biblioteka.NET\\Projekt Biblioteka.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\paswi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\paswi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

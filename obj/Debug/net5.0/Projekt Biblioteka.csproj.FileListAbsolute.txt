@@ -162,3 +162,4 @@ C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.d
 C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\ref\Projekt Biblioteka.dll
 C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.pdb
 C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.genruntimeconfig.cache
+C:\Users\paswi\source\repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Profile\Edit.cshtml.g.cs

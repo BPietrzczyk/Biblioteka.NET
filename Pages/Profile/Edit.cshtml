@@ -1,0 +1,121 @@
+﻿@page
+@model Projekt_Biblioteka.Pages.Profile.EditModel
+@{
+
+    var userId = "";
+    var userLogin = "";
+    var userEmail = "";
+    byte[] valueID;
+    byte[] valueLogin;
+    byte[] valueEmail;
+
+    HttpContext.Session.TryGetValue("UserId", out valueID);
+    HttpContext.Session.TryGetValue("UserLogin", out valueLogin);
+    HttpContext.Session.TryGetValue("UserEmail", out valueEmail);
+    try
+    {
+        userId = System.Text.Encoding.UTF8.GetString(valueID);
+        userLogin = System.Text.Encoding.UTF8.GetString(valueLogin);
+        userEmail = System.Text.Encoding.UTF8.GetString(valueEmail);
+    }
+    catch (Exception e) { }
+
+
+}
+
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <title>Biblioteka - Profil</title>
+    <link rel="stylesheet" href="~/css/login.css" />
+</head>
+<div class="row gutters-sm">
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="d-flex flex-column align-items-center text-center">
+                    <div class="mt-3">
+                        <h4>@(userLogin)</h4>
+                        <p class="text-secondary mb-1">Email</p>
+                        <p class="text-muted font-size-sm">@(userEmail)</p>
+                        <form method="post">
+                            <button name="profile" value="Delete" class="btn btn-primary">Usuń</button>
+                            <button name="profile" value="Logout" class="btn btn-outline-primary">Wyloguj</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        @if(Model.errorMessage.Length > 0)
+            {
+                <div class="card mt-3">
+                    @Model.errorMessage
+                </div>
+            }
+        
+
+    </div>
+
+
+
+
+
+
+    <!-- to po prawej -->
+    <!-- tutaj mogą być wypożyczone książki -->
+
+    <div class="col-md-8">
+        <div class="card mb-3">
+            <div class="card-body">
+                <form method="post">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <h6 class="mb-0">Login</h6>
+                        </div>
+                        <div class="col-sm-3">
+                            @(userLogin)
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control form-control-sm" id="editLogin" name="editLogin" placeholder="Login">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <h6 class="mb-0">Email</h6>
+                        </div>
+                        <div class="col-sm-3">
+                            @(userEmail)
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" class="form-control form-control-sm" id="editEmail" name="editEmail" placeholder="Email">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <h6 class="mb-0">Hasło</h6>
+                        </div>
+                        <div class="col-sm-3">
+                            ********
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="password" class="form-control form-control-sm" id="editPassword" name="editPassword" placeholder="Email">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <button class="btn btn-outline-danger">Edytuj</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\paswi\\Source\\Repos\\Biblioteka.NET\\Projekt Biblioteka.csproj": {}
+    "C:\\Users\\paswi\\source\\repos\\Biblioteka.NET\\Projekt Biblioteka.csproj": {}
   },
   "projects": {
-    "C:\\Users\\paswi\\Source\\Repos\\Biblioteka.NET\\Projekt Biblioteka.csproj": {
+    "C:\\Users\\paswi\\source\\repos\\Biblioteka.NET\\Projekt Biblioteka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paswi\\Source\\Repos\\Biblioteka.NET\\Projekt Biblioteka.csproj",
+        "projectUniqueName": "C:\\Users\\paswi\\source\\repos\\Biblioteka.NET\\Projekt Biblioteka.csproj",
         "projectName": "Projekt Biblioteka",
-        "projectPath": "C:\\Users\\paswi\\Source\\Repos\\Biblioteka.NET\\Projekt Biblioteka.csproj",
+        "projectPath": "C:\\Users\\paswi\\source\\repos\\Biblioteka.NET\\Projekt Biblioteka.csproj",
         "packagesPath": "C:\\Users\\paswi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paswi\\Source\\Repos\\Biblioteka.NET\\obj\\",
+        "outputPath": "C:\\Users\\paswi\\source\\repos\\Biblioteka.NET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\programowanie\\visualStudio\\shared\\NuGetPackages",

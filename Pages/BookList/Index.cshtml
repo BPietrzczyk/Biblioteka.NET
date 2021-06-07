@@ -32,6 +32,10 @@
             <a asp-page="Create" class="btn btn-info form-control text-white">Dodaj książkę</a>
         </div>
 
+        <div class="col-6">
+            <h4 style="text-align: center; color: red;">@Model.Error</h4>
+        </div>
+
         <div class="col-12 border p-3 mt-3">
             <form method="post">
                 @if (Model.Books.Count() > 0)
@@ -49,6 +53,9 @@
                             </th>
                             <th>
                                 <label>Numer wewnętrzny</label>
+                            </th>
+                            <th>
+                                <label>Czy wypożyczona</label>
                             </th>
                             <th>
 
@@ -70,8 +77,21 @@
                             @Html.DisplayFor(m => item.LibraryNumber)
                         </td>
                         <td>
+                            @foreach (var borrowed in Model.BorrowedBooks)
+                            {
+                                @if (borrowed.BookId.Equals(item.Id))
+                                {
+                                    <p>Tak</p>
+                                }
+                                else
+                                {
+                                    <p>Nie</p>
+                                }
+                            }
+                        </td>
+                        <td>
                             <button asp-page-handler="Delete" asp-route-id="@item.Id" onclick="return confirm('Czy na pewno chcesz usunąć książkę?')" class="btn btn-danger btn-sm">Usuń</button>
-                            <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-success btn-sm text-white">Edytuj</a>
+                            <button asp-page-handler="Edit" asp-route-id="@item.Id" class="btn btn-success btn-sm text-white">Edytuj</button>
                         </td>
                     </tr>
                         }

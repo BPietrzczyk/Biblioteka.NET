@@ -9,111 +9,6 @@ D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\ref\Projekt Biblioteka.dll
 D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\Projekt Biblioteka.pdb
 D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\Projekt Biblioteka.Views.dll
 D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\Projekt Biblioteka.Views.pdb
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.csprojAssemblyReference.cache
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.GeneratedMSBuildEditorConfig.editorconfig
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.AssemblyInfoInputs.cache
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.AssemblyInfo.cs
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.csproj.CoreCompileInputs.cache
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.MvcApplicationPartsAssemblyInfo.cache
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.RazorAssemblyInfo.cache
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.RazorAssemblyInfo.cs
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\staticwebassets\Projekt Biblioteka.StaticWebAssets.Manifest.cache
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\staticwebassets\Projekt Biblioteka.StaticWebAssets.xml
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\scopedcss\bundle\Projekt Biblioteka.styles.css
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.TagHelpers.input.cache
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.TagHelpers.output.cache
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.RazorCoreGenerate.cache
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.RazorTargetAssemblyInfo.cache
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.RazorTargetAssemblyInfo.cs
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.Views.pdb
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.dll
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\ref\Projekt Biblioteka.dll
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.pdb
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.genruntimeconfig.cache
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.csproj.CopyComplete
-D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Login.cshtml.g.cs
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\appsettings.Development.json
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\appsettings.json
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Projekt Biblioteka.exe
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Projekt Biblioteka.deps.json
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Projekt Biblioteka.runtimeconfig.json
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Projekt Biblioteka.runtimeconfig.dev.json
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Projekt Biblioteka.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\ref\Projekt Biblioteka.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Projekt Biblioteka.pdb
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Projekt Biblioteka.Views.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Projekt Biblioteka.Views.pdb
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.csprojAssemblyReference.cache
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.AssemblyInfoInputs.cache
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.AssemblyInfo.cs
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.csproj.CoreCompileInputs.cache
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.RazorAssemblyInfo.cache
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.RazorAssemblyInfo.cs
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\staticwebassets\Projekt Biblioteka.StaticWebAssets.Manifest.cache
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\staticwebassets\Projekt Biblioteka.StaticWebAssets.xml
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\scopedcss\bundle\Projekt Biblioteka.styles.css
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.TagHelpers.input.cache
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.TagHelpers.output.cache
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.RazorCoreGenerate.cache
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Login.cshtml.g.cs
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.RazorTargetAssemblyInfo.cache
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.RazorTargetAssemblyInfo.cs
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.Views.pdb
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\ref\Projekt Biblioteka.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.pdb
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.genruntimeconfig.cache
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.csproj.CopyComplete
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Register.cshtml.g.cs
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Humanizer.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Microsoft.Identity.Client.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\System.Runtime.Caching.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-<<<<<<< HEAD
 D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\Humanizer.dll
 D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
@@ -146,8 +41,125 @@ D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\runtimes\win-x86\native\Micros
 D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.AssemblyInfoInputs.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.AssemblyInfo.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.csproj.CoreCompileInputs.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.MvcApplicationPartsAssemblyInfo.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.RazorAssemblyInfo.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.RazorAssemblyInfo.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\staticwebassets\Projekt Biblioteka.StaticWebAssets.Manifest.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\staticwebassets\Projekt Biblioteka.StaticWebAssets.xml
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\scopedcss\bundle\Projekt Biblioteka.styles.css
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.TagHelpers.input.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.TagHelpers.output.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.RazorCoreGenerate.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Login.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Register.cshtml.g.cs
-=======
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\registerErrors\RLogin.cshtml.g.cs
-C:\Users\paswi\Source\Repos\James17PL\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\registerErrors\REmail.cshtml.g.cs
->>>>>>> 251a9927f50b1c09605ea1e3de17ca610e81e5c6
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\registerErrors\REmail.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\registerErrors\RLogin.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.RazorTargetAssemblyInfo.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.RazorTargetAssemblyInfo.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.Views.pdb
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.csproj.CopyComplete
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.dll
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\ref\Projekt Biblioteka.dll
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.pdb
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.genruntimeconfig.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Projekt Biblioteka.csprojAssemblyReference.cache
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\BookList\Index.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\BookList\Create.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Profile\Index.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Profile\ResetPassword.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\BookList\Edit.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\UserBookList\Index.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\appsettings.json
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Projekt Biblioteka.exe
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Projekt Biblioteka.deps.json
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Projekt Biblioteka.runtimeconfig.json
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Projekt Biblioteka.runtimeconfig.dev.json
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Projekt Biblioteka.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\ref\Projekt Biblioteka.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Projekt Biblioteka.pdb
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Projekt Biblioteka.Views.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Projekt Biblioteka.Views.pdb
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Humanizer.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.csprojAssemblyReference.cache
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.AssemblyInfoInputs.cache
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.AssemblyInfo.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.csproj.CoreCompileInputs.cache
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.RazorAssemblyInfo.cache
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.RazorAssemblyInfo.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\staticwebassets\Projekt Biblioteka.StaticWebAssets.Manifest.cache
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\staticwebassets\Projekt Biblioteka.StaticWebAssets.xml
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\scopedcss\bundle\Projekt Biblioteka.styles.css
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.TagHelpers.input.cache
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.TagHelpers.output.cache
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.RazorCoreGenerate.cache
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\BookList\Create.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\BookList\Edit.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\BookList\Index.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Login.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Profile\Index.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Profile\ResetPassword.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Register.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\registerErrors\REmail.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\registerErrors\RLogin.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\UserBookList\Index.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.RazorTargetAssemblyInfo.cache
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.RazorTargetAssemblyInfo.cs
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.Views.pdb
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.csproj.CopyComplete
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\ref\Projekt Biblioteka.dll
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.pdb
+C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.genruntimeconfig.cache
+C:\Users\paswi\source\repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Profile\Edit.cshtml.g.cs

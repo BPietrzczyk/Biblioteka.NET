@@ -1,8 +1,4 @@
-﻿body {
-    background-color: #E6F3EE;
-}
-
-.loginHeader
+﻿.loginHeader
 {
     font-size: 56px;
     font-style: italic;
@@ -25,6 +21,10 @@
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(1,245,255,0);
 }
 
+.text-info
+{
+    text-align: center;
+}
 
 input[type=text], input[type=password] {
     min-width: 250px;

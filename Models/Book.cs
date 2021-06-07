@@ -13,5 +13,11 @@ namespace Projekt_Biblioteka.Models
         [Required]
         public string Name { get; set; }
         public string Author { get; set; }
+
+        public string ISBN { get; set; }
+
+        public string LibraryNumber { get; set; }
+
+        public string IsBorrowed { get; set; }
     }
 }

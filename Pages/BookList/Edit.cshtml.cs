@@ -13,6 +13,8 @@ namespace Projekt_Biblioteka.Pages.BookList
     {
         private ApplicationDbContext _db;
 
+        public string Error = "";
+
         public EditModel(ApplicationDbContext db)
         {
             _db = db;
@@ -20,17 +22,31 @@ namespace Projekt_Biblioteka.Pages.BookList
 
         [BindProperty]
         public Book Book { get; set; }
+        public List<Book> Books { get; set; }
 
         public async Task OnGet(int id)
         {
             Book = await _db.Book.FindAsync(id);
+            Books = _db.Book.ToList();
         }
 
         public async Task<IActionResult> OnPost()
         {
+            Books = _db.Book.ToList();
+            var BookFromDb = await _db.Book.FindAsync(Book.Id);
             if (ModelState.IsValid)
             {
-                var BookFromDb = await _db.Book.FindAsync(Book.Id);
+                foreach(Book bookLocal in Books)
+                {
+                    if (bookLocal.LibraryNumber.Equals(Book.LibraryNumber))
+                    {
+                        if (!(bookLocal.Id.Equals(BookFromDb.Id)))
+                        {
+                            Error = "Podano istniej¹cy ju¿ numer wewnêtrzny.";
+                            return Page();
+                        }
+                    }
+                }
                 BookFromDb.Name = Book.Name;
                 BookFromDb.Author = Book.Author;
                 BookFromDb.ISBN = Book.ISBN;

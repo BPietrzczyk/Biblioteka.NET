@@ -40,7 +40,7 @@ namespace Projekt_Biblioteka.Pages.BookList
                 {
                     if (bookLocal.LibraryNumber.Equals(Book.LibraryNumber))
                     {
-                        if (!(bookLocal.Id.Equals(BookFromDb.Id)))
+                        if (!(bookLocal.Id == BookFromDb.Id))
                         {
                             Error = "Podano istniej¹cy ju¿ numer wewnêtrzny.";
                             return Page();

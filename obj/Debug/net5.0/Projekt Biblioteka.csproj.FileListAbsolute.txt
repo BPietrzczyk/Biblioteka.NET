@@ -164,3 +164,4 @@ C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.p
 C:\Users\paswi\Source\Repos\Biblioteka.NET\obj\Debug\net5.0\Projekt Biblioteka.genruntimeconfig.cache
 C:\Users\paswi\source\repos\Biblioteka.NET\obj\Debug\net5.0\Razor\Pages\Profile\Edit.cshtml.g.cs
 D:\Studia\NET\Projekt Biblioteka\obj\Debug\net5.0\Razor\Pages\Profile\Edit.cshtml.g.cs
+D:\Studia\NET\Projekt Biblioteka\bin\Debug\net5.0\WebDriver.dll

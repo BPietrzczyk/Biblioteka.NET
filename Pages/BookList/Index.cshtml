@@ -77,9 +77,9 @@
                             @Html.DisplayFor(m => item.LibraryNumber)
                         </td>
                         <td>
-                            @foreach (var borrowed in Model.BorrowedBooks)
+                            @*@foreach (var borrowed in Model.BorrowedBooks)
                             {
-                                @if (borrowed.BookId.Equals(item.Id))
+                                @if (borrowed.BookId == item.Id)
                                 {
                                     <p>Tak</p>
                                 }
@@ -87,6 +87,14 @@
                                 {
                                     <p>Nie</p>
                                 }
+                            }*@
+                            @if (item.IsBorrowed.Equals("Yes"))
+                             {
+                                <p>Tak</p>
+                             }
+                            else
+                            {
+                                <p>Nie</p>
                             }
                         </td>
                         <td>
